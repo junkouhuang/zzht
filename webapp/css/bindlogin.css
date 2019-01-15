@@ -1,0 +1,87 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+.context {
+    background: #333;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.description {
+    padding-top: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+.form  .username,.form .password {
+    width: 80%;
+    margin-left: 10%;
+    background: #fff3f3;
+    height: 40px;
+    margin-top: 10px;
+}
+.form  .username  span ,.form  .password span {
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+}
+.form  .username input,.form  .password  input {
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    border:none;
+    font-size: 16px;
+    background: #fff3f3;
+    float: left;
+}
+.form  .username a,.form  .password a{
+    width: 10%;
+    height: 40px;
+    display: inline-block;;
+    float: left;
+}
+.form  .username img,.form  .password  img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    display: none;
+}
+input:focus,input:focus{outline:0 !important}
+
+.form  .next {
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.form  .next  input {
+    width: 65px;
+    height:65px;
+    border-radius: 100%;
+    background-size: cover;
+    margin-top:10px;
+    border: none;
+    background-color: #333;
+}
+
+.message {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+    color: #ACCD3C;
+    width: 70%;
+    margin-left: 15%;
+    display: none;
+}
+.other {
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    margin: 10px;
+}

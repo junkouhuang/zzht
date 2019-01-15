@@ -1,0 +1,3 @@
+.page-container  .mt-24  .store  li{ border: 0 ; border-bottom: 1px solid #efebeb;float:left;display:inline-block;width: 62px;height: 35px;border-left:1px solid  #efebeb;text-align:center;line-height:35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.page-container  .mt-24 .store .left  li,.page-container  .mt-24  .store .title-c li { border-bottom:1px solid #efebeb;  border-top: 1px solid #efebeb;}
+.page-container  .mt-24 .store  .mold  { border-right:1px solid  #efebeb; }

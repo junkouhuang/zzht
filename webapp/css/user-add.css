@@ -1,0 +1,4 @@
+#addUserForm tr { margin:10px; height: 52px;}
+.error{ color:red;  }
+#relevance { position: relative; }
+#relevance a {  position: absolute; right: 239px; top: 0px;

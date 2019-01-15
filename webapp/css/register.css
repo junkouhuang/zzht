@@ -1,0 +1,198 @@
+@charset "utf-8";
+body,h1,h2,h3,p,ul,ol,form,fieldset,figure,a {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+ul li {
+	list-style: none;
+}
+input[type="submit"]:hover {
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+}
+input[type="button"]:hover{
+	cursor: pointer;
+}
+/*头部*/
+.header {
+	max-width:1200px;
+	height: 100px;
+	margin: 0 auto 1px;
+}
+.header .logo {
+	max-width:1200px;
+	height: 100px;
+}
+.header .logo a {
+	display: block;
+	width: 200px;
+	height: 60px;
+	background-color: #B6C532;
+}
+/*主体*/
+.section {
+	width:100%;
+	height:520px;
+	background:url(../images/like_bg.png) no-repeat;
+	background-color:#333;
+}
+.section .register {
+	width: 346px;
+	height: 355px;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 85px;
+}
+.section .register .right {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.section .register .right .register_tab {
+	height:50px;
+}
+.section .register .right .register_tab .fl {
+	width: 50%;
+	float: left;
+}
+.section .register .right .register_tab .lo_mod,
+.section .register .right .register_tab .eb_mod {
+	color: #666666;
+	font-weight: bold;
+    width: 173px;
+    line-height: 50px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    height: 55px;
+    background: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.section .register .right .register_tab .tab_on {
+    color: #B6C532;
+    border-bottom: 2px solid #B6C532;
+}
+.section .register .right .register_tab #getMsg {
+	visibility: hidden;
+}
+.section .register .right .item-fore1,
+.section .register .right .item-fore2,
+.section .register .right .item-fore3
+/* .section .register .right .item-fore4, */ {
+	width: 302px;
+	height: 40px;
+	margin: 10px auto;
+}
+.section .register .right .item-fore5,
+.section .register .right .item-fore6 {
+	width: 299px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    margin-right: 25px;
+}
+}
+.section .register .right .item-fore3 {
+	position: relative;
+}
+.section .register .right .item-fore1 select {
+	width: 95px;
+	height: 100%;
+}
+.section .register .right .item-fore2 button {
+	width: 95px;
+	height: 100%;
+
+}
+.section .register .right .item-fore1 input,
+.section .register .right .item-fore2 input {
+	width: 198px;
+	height: 100%;
+	border: 1px solid #bdbdbd;
+	text-indent: 4px;
+}
+ .section .register .right .item-fore2 input[type="button"]{
+       width: 95px;
+       text-indent: -3px;
+ }
+.section .register .right .item-fore2 input[type="submit"] {
+	    width: 95px;
+}
+/* .section .register .right .item-fore4 .userName, */
+.section .register .right .item-fore5 .pwd ,
+.section .register .right .item-fore6 .identity_card {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #bdbdbd;
+	text-indent: 4px;
+}
+.section .register .right .item-fore3 input {
+	background-color: #0099FF;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #bdbdbd;
+	text-indent: 2px;
+}
+.section .register .right .ot_btn {
+    width: 346px;
+    height: 60px;
+    text-align: center;
+}
+.section .register .right .ot_btn li {
+	display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+}
+.section .register .right .ot_btn li img{
+	position: relative;
+	top: 4px;
+	right: 2px;
+}
+.section .register .right .link_login{
+	text-align: right;
+    margin-right: 20px;
+}
+.agree {
+	position: relative;
+    right: 72px;
+}
+
+.agree a {
+	color:#551A8B;
+}
+
+.agree a:hover {
+	text-decoration:underline;
+}
+.ks-dialog-content {
+	    width: 724px;
+        height: 435px;
+        border:2px solid #333;
+        background-color:#fff;
+        margin:0 auto;
+        padding: 20px;
+        position: relative;
+        top: 23px;
+        display:none;
+}
+.agreementBtn {
+	    text-align: center;
+    	padding: 25px;
+}
+.agreementBtn input {
+	    width: 122px;
+    	height: 30px;
+}

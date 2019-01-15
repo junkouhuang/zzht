@@ -1,0 +1,2 @@
+.allocation .fpBtn{width: 80px; height: 80px; border: 1px solid #e74851; border-radius: 50%; line-height: 80px; text-align: center; color: #fff; position: fixed; top: 50%; margin-top: -40px; right: 20px; cursor: pointer;  -moz-box-shadow: 2px 2px 5px #e74551;  -webkit-box-shadow: 2px 2px 5px #e74551;  box-shadow: 2px 2px 5px #e74551; background: #e74551;}
+.allocation .msgInfo {text-align: center; position: absolute; left: 50%; margin-left: -45px;}

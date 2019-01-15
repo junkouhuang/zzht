@@ -1,0 +1,3 @@
+#dredg { margin:0 15px; }
+#dredg span , #dredg input { margin:10px 0px; }
+#card  , #pwd ,#confirmpwd { color:red; font-style: normal; }

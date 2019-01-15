@@ -1,0 +1,118 @@
+@charset "utf-8"";
+html, body, div, h1, span, header, img, button, ul,ol,li {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+	margin:0;
+	padding:0;
+}
+input[type="submit"] {
+	color: #fff;
+    font-size: 15px;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+ul li {
+	list-style: none;
+}
+/*主体*/
+.section {
+	max-width:1920px;
+	min-width:1200px;
+	margin-top: 50px;
+}
+.section .detail {
+	width:1200px;
+	margin:0 auto;
+}
+.section .detail .detailLeft ,.section .detail .detailRight{
+	width:50%;
+	height:600px;
+	float:left;
+	text-align:center;
+	padding-top:40px;
+	text-align:left;
+}
+.section .tb-sku span,.section .tb-sku ul{
+	float:left;
+}
+.order_affirm,.order_car {
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 33px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 33px;
+    text-align: center;
+    font-size: 14px;
+}
+.section  input[type="text"] {
+   width:25px;
+   height:25px;
+}
+.section .size li span{
+    width: 30px;
+    height: 30px;
+    border: 1px dotted #ccc;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+}
+.section .detail .detailRight .price{
+    width: 400px;
+    background-color: #f5f5f5;
+}
+.section .detail .detailLeft  .tb-booth {
+	width:345px;
+	height:520px;
+	margin: 10px auto;
+}
+.section .detail .detailLeft  .tb-booth  img{
+    width: 345px;
+    height: 520px;
+    cursor: pointer;
+} 
+.section .detail .detailLeft   .J_UlThumb {
+    width:382px;
+	height:80px;
+	margin:0 auto;
+}
+.section .detail .detailLeft   .J_UlThumb li {
+    display: inline-block;
+    width: 61px;
+    height: 60px;
+    cursor: pointer;
+    margin: 6px;
+}
+.section .detail .detailLeft   .J_UlThumb li img {
+	width: 60px;
+    height: 60px;
+}
+.clearfix:after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+/*商品详情*/
+.goodsdetail {
+	max-width:1920px;
+	min-width:1200px;
+	margin-top: 80px;
+}
+.goodsdetail  .item {
+	width:1200px;
+	border-top:2px solid #ccc;
+	margin:0 auto;
+	text-align: center;
+}
+.goodsdetail  .item p,.goodsdetail  .item h3{
+	text-align: left;
+}
+ 

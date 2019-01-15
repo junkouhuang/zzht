@@ -1,0 +1,13 @@
+@charset "utf-8";
+.more .number{
+    border: 1px solid #DDDDDD;
+    height: 31px;
+    width: 118px;
+    margin-left: 4px;
+}
+.more .color {
+    border: 1px solid #DDDDDD;
+    height: 31px;
+    width: 118px;
+}
+

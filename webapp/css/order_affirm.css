@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,p,ul,ol,form,fieldset,figure,a,input {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+ul li {
+	list-style: none;
+	cursor:pointer;
+}
+input[type="submit"] {
+	color: #fff;
+	font-size: 15px;
+}
+input[type="submit"] {
+	color: #fff;
+	font-size: 15px;
+}
+/*头部*/
+.header {
+	max-width: 1920px;
+	min-width: 1200px;
+	height: 40px; 
+	background-color: #B6C532;
+}
+.header .wrap {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header .wrap .s1 {
+    color:#ffffff;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 40px;
+}
+.header .wrap .home {
+	float: left;
+}
+.header .wrap .myorder,.shopping-cart,.login,.register {
+	float: right;
+    margin:0 20px;
+}
+/**/
+.layout-header {
+    position: relative;
+    width: 100%;
+    z-index: 998;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #efefef;
+}
+.container {
+	max-width:1920px;
+	mai-width:1200px;
+	background-color: #F5F5F5;
+	}
+/**/
+.container .order-header {
+	width:1200px;
+	height:74px;
+	margin:0 auto;
+	background-color: #fff;
+	}
+.container .order-header p {
+	font-size:24px;
+	}
+.container .order-header  .order-header-title {
+	float:left;
+	width:200px;
+	height: 74px;
+	line-height: 74px;
+    padding-left: 60px;
+	}
+.container .order-header  .order-header-bread {
+	float:right;
+	width:800px;
+    height: 74px;
+	line-height: 74px;
+	padding-right: 40px;
+	}
+.container .order-header  .order-header-bread li {
+	float:right;
+	color: #999;
+	font-size: 14px;
+	margin: 0 5px;
+	}
+/**/
+.container .order-address {
+	width:1200px;
+	height:280px;
+	margin:10px auto;
+	background-color: #fff;
+	}
+.container .order-address h3 {
+	width: 1076px;
+    line-height: 65px;
+    border-bottom: 1px solid #EFEFEF;
+    margin-left: 60px;
+	}
+.container .order-address .order-address-checkbox {
+	margin:30px 50px;
+	}
+.container .order-address .order-address-checkbox li {
+	float: left;
+    position: relative;
+    width: 275px;
+    height: 144px;
+    cursor: pointer;
+    margin: 0 0 30px 12px;
+    transition: border-color .8s;
+    padding: 0 15px;
+    border: 2px solid #b6c532;
+	}
+.container .order-address .order-address-checkbox .addr1{
+	display: inline-block;
+    padding: 10px;
+    border-bottom:1px solid #EFEFEF;
+    width: 250px;
+	}
+.container .order-address .order-address-checkbox .addAdress {
+    padding-top: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 15px;
+    max-height: 60px;
+    overflow: hidden;
+    color: #515151;
+	width: 270px;
+    display: inline-block;
+	}
+.container .order-address .order-address-checkbox .addAdress {
+    padding-top: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 15px;
+    max-height: 60px;
+    overflow: hidden;
+    color: #515151;
+	width: 270px;
+    display: inline-block;
+	}
+.container .order-address .order-address-checkbox  .addNewAddr {
+	display: inline-block;
+    padding: 60px 105px;
+	}
+.container .order-address .order-address-checkbox .addr1 b{
+	float:right;
+	}
+/* 确认订单信息*/
+.container  .order-product {
+    width: 1200px;
+	margin:10px auto;
+	background-color:#fff;
+	}
+.order-product p {
+	font-size: 18px;
+    text-indent: 10px;
+    padding: 25px 60px;
+    font-weight: bolder;
+	}
+.container .order_detail {
+	margin: 10px 60px;
+    width: 1084px;
+		}
+.container .order_detail {
+	padding-bottom: 50px;
+	text-align: center;
+    border: 1px solid #f5f5f5;
+	}
+.container .order_detail th {
+	height: 50px;
+	}
+.container .order_detail td {
+	height: 80px;
+	}
+.container .order_detail  .goodsImg {
+	width:70px;
+	height: 80px;
+	}
+.container .order-discount {
+    width: 1160px;
+    height: 88px;
+    margin: 10px auto;
+    background-color: #fff;
+    line-height: 88px;
+    text-align: right;
+    padding-right: 40px;
+	}
+.container .order-discount .totalPrice {
+	color: #e02b41;
+    font-size: 26px;
+    font-weight: bold;
+	}
+.container .container .order-total {
+	width:1200px;
+	margin:0 auto;
+	}
+.container  .order-submit {
+	width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    background: #fff;
+    }
+.container  .order-submit  a {
+    width: 100px;
+    height: 40px;
+    background-color: #b6c532;
+    float: right;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 39px 10px;
+    }

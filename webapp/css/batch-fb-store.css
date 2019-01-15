@@ -1,0 +1,37 @@
+#switchable { float: right;width: 100%;}
+#storeGroupData li { float:left; width:60px;}
+#mdSearch {float: right;}
+#storeGroupData {float:right;}
+.page-container  .mt-21 .store .mold ,.page-container  .mt-23  .store .mold { width: 80px; }
+.page-container  .mt-23  .store  li{ border: 0; border-bottom: 1px solid #efebeb;float:left;display:inline-block;width: 62px;height: 35px;border-left:1px solid  #efebeb;text-align:center;line-height:35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.page-container  .mt-21  .store  li{ border: 0 ; border-bottom: 1px solid #efebeb;float:left;display:inline-block;width: 62px;height: 35px;border-left:1px solid  #efebeb;text-align:center;line-height:35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.page-container  .mt-21  .store .left  li,.page-container  .mt-23  .store .right li { border-bottom:1px solid #efebeb;  border-top: 1px solid #efebeb;}
+.page-container  .mt-21  .store  .mold ,.page-container  .mt-23  .store  .mold { border-right:1px solid  #efebeb; width: 103px; }
+/*.page-container .mt-21 { margin-top: 10px; }*/
+.page-container .mt-21>div { position:relative; }
+.page-container .mt-21 >.store, .page-container .mt-23>.store {  margin-top: 10px; }
+#classify  li { float:left; height: 40px; position: relative; bottom: 6px;}
+#classify  legend { font-size: 12px;   margin-bottom: 0; width: 26%; line-height:15px; }
+#classify  fieldset label input { margin-left: 5px; }
+#classify  fieldset {padding:0 ; width:122px;background: #f7f7f7; border: 1px solid #ededed;}
+#classify  #sustain fieldset { width:177px;}
+#classify  fieldset  label {margin: 0 3px;  font-size: 13px;color:#ccc;}
+#classify  fieldset .abc { color:#333; }
+.page-container { padding: 5px 20px;position: relative;}
+#store1 { overflow: auto; position: absolute; top: 37px; width: 460px; height: 352px;}
+#tbody2 { overflow: auto; position: absolute; top: 47px; width: 460px; height: 352px;}
+ .page-container  .mt-23  .store .cmjb,
+.page-container  .mt-23  .store .jgjb,
+.page-container  .mt-23  .store .jjjb,
+.page-container  .mt-23  .store .zcdjb{ display:none; } 
+.page-container  .mt-21  .store .cmjb,
+.page-container  .mt-21  .store .jgjb,
+.page-container  .mt-21  .store .jjjb,
+.page-container  .mt-21 .store .zcdjb{ display:none; }
+.selectNumber {  position: absolute;  bottom: -8px;  width: 948px;  margin: 0 auto 0; height: 16px;	}
+.selectNumber .selectNumberleft { width:50%; display:inline-block; display:none; float: left;}
+.selectNumber .selectNumberright { width:50%;  display:inline-block; display:none;float: right;}
+.check-ok{  position: absolute; right: 50%; font-size: 43px;top:0;cursor:pointer;color: #5eb95e;width: 76px; height: 88px;text-align: center;background:#333;opacity:0.5;display:none;}
+.check-order{cursor:pointer;display:none; float: right;}
+.dropdownToggle{display:none; width: 223px; height: 300px;position: absolute;border:1px solid #ccc;left: -3px;background: #fff; box-shadow: 1px 1px 1px #ccc;top: 29px;}
+

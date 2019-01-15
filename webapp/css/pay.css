@@ -1,0 +1,76 @@
+ @charset "utf-8";
+/*section*/
+.pay {max-width: 1920px; min-width: 1200px;width:1200px;  margin: 0 auto  100px ; width: 950px ; }
+.pay  .order-with-qr  .order-wrapper  .J_APop {font-size: 14px;color: #f5456e;font-weight: bold; position: absolute; top: 17px;right: 20px;}
+.pay  .order-with-qr  .order-wrapper  .tip {font-size: 17px;color: #dbc2a5; font-weight: bold; position: absolute; top: 106px; right: 220px;}
+.pay  .order-with-qr  .order-wrapper  .J_APop  .amount { font-size:15px; }
+.counttime {color: #f5456e; font-size: 18px;}
+/*进度*/
+  .pay-header-bread {float:right;width:551px; height: 74px;line-height: 74px;padding: 16px 0 4px 40px; position: absolute; right: 0px;  top: -18px; }
+  .pay-header-bread  .shopping_cart,
+  .pay-header-bread  .shopping_pay,
+  .pay-header-bread  .shopping_confirm  {float:right;color: #999; width: 71px;  margin: 9px 0 ; background: url(../images/process_black.png) 0 0 no-repeat ; background-size: 95px 14px;}
+  .pay-header-bread  .shopping_finish {float:right;color: #999; width: 80px;  margin: 9px 0 ; background: url(../images/process_sd.png) 0 0 no-repeat ; background-size: 102px 15px;}
+  .pay-header-bread  .shopping_cart,
+  .pay-header-bread  .shopping_confirm,
+  .pay-header-bread  .shopping_pay,
+  .pay-header-bread  .shopping_finish { font-size:14px; }
+  .shopping_confirm span,.shopping_cart span{ position: relative;right: 9px;}
+  
+/**二维码以及商品明细**/
+.pay .order-with-qr { display:none ;}
+.pay .order-with-qr  .order-wrapper { margin:15px auto  30px; min-height: 115px ; }
+.pay  .order-with-qr  .order-wrapper .order-title  canvas{ margin-left: 46px;}
+/*选择支付方式*/
+.pay  .J-payMethod { /* border-bottom: 3px solid #a6a6a6 ; */  padding: 20px;}
+.pay  .J-payMethod  .md-order-head { width:900px; height:60px; margin: 0 auto; font-size:14px;    position: relative;}
+/**微信支付&&支付宝支付**/
+.pay  .J-payMethod  .channel-bank { min-height: 52px ;  cursor: pointer ; margin: 0 auto; margin-bottom: 28px;  width: 900px; padding: 4px 4px 3px;  position: relative;  border: 2px solid #f6f6f6 ; }
+.pay  .J-payMethod  .channel-bank:hover { border: 2px solid #ababab!important; }
+.pay  .J-payMethod  .channel-bank   .wx { color:#3eb901; font-size: 30px; position:relative; bottom:1px; left:20px;}
+.pay  .J-payMethod  .channel-bank   .zfb { color:#0ea5e9; font-size: 30px; position:relative; bottom:1px; left:20px;}
+.pay  .J-payMethod  .channel-bank   .wechat ,
+.pay  .J-payMethod  .channel-bank   .zhifubao { position:relative;  left: 28px; bottom: 7px ; font-size: 14px ;}
+/**网上银行支付(工商，建设，农行，邮政)**/
+.pay  .J-payMethod   .online:hover { border: 2px solid #ababab!important; }
+.pay  .J-payMethod   .online  {width:900px; height:260px; margin: 0 auto; border: 2px solid #f6f6f6;}
+.pay  .J-payMethod   .pn-new {width: 188px; border: 1px solid #e0e0e0; display: inline-block; position: relative; margin: 10px 130px; text-align: center;}
+.pay  .J-payMethod   .online  .channel-bank { height: 52px ; width: 165px ; cursor: pointer ;  padding: 4px 4px 3px;   border: 2px solid #f6f6f6 ; float:left; margin: 10px;}
+.pay  .J-payMethod   .online  p { height: 52px ; line-height: 52px ; margin: 0 auto; width: 900px; padding: 4px 4px 3px 15px;  position: relative; font-size: 15px;}
+.pay  .J-payMethod   .online  .sign p {text-align: center; color: #dbc2a5;}
+.pay  .J-payMethod   .online  .channel-bank  .gs { color:#de0000 ;  font-size: 30px; position:relative; bottom:6px;}
+.pay  .J-payMethod   .online .channel-bank   .js { color:#1151b4 ;  font-size: 30px; position:relative; bottom:6px;}
+.pay  .J-payMethod   .online .channel-bank  .nh { color:#4ba89a ;  font-size: 30px; position:relative; bottom:6px;}
+.pay  .J-payMethod  .online .channel-bank   .yz { color:#18825c ;  font-size: 30px; position:relative; bottom:6px;}
+.pay  .J-payMethod  .online .channel-bank   .icbc ,
+.pay  .J-payMethod  .online .channel-bank   .ccb ,
+.pay  .J-payMethod  .online .channel-bank   .postal  ,
+.pay  .J-payMethod  .online .channel-bank   .abc { position:relative ; bottom: 12px; font-size:14px; }
+
+/* 余额支付 */
+.zhizhiContainer {  text-align: left; width: 900px; height: 195px; margin: 0 auto;  border: 2px solid #f6f6f6;	}
+.sixDigitPassword {cursor: text; background: #fff; outline: none; position: relative; padding: 8px 0; height: 31px;  border-radius: 2px; margin-left: 20px; }
+.zhizhiContainer  .ui-label {  background: url(../images/zqian.png); font-size: 15px; margin: 6px -6px; display: block;width:133px;height:35px;}
+.zhizhiContainer  .ui-pwd { font-size: 14px; font-weight :bold ;margin: 6px 17px;display: block;}
+.sixDigitPassword input { float: left; display: block;  height: 30px; border-left: 1px solid #cccccc;width:29px;  text-align: center;  font-size: 25px;}
+.sixDigitPassword  a { display: inline-block; text-align: center;  text-decoration: none; vertical-align: middle; cursor: pointer; font-size: 14px; font-family: inherit; font-weight: 700; border-radius: 2px; padding: 7px 20px; background-image: none; background: #ca1019 ; color: #fff;  border: none;  margin: 20px; }
+
+/*网银支付*/
+.ui-form-label { font-size: 14px; font-weight: 700;float: left; text-align: right; width: 75px; line-height: 51px; margin-bottom: 1px;}
+.cardNo,.payNo{ height: 32px; margin: 10px;width: 300px;border: 1px solid #ddd;} 
+.bank-identific .bi-input { height: 24px;  line-height: 24px; margin-top: -2px;}
+.ui-form-group { margin-left: 85px; line-height: 32px;}
+.bank-identific .bi-input {  position: relative; width: 312px; height: 20px; padding: 5px 0 5px 10px; line-height: 20px; font-size: 12px; background-color: #fff; border: 1px solid #c6c6c6; border-radius: 2px; box-shadow: 0 1px 1px 1px #ededed inset; vertical-align: middle;  -moz-transition: border-color .1s;  -o-transition: border-color .1s; -webkit-transition: border-color .1s;  transition: border-color .1s;}
+.modal { margin-top :-255px; }
+#J-mask-layer {background: #333;  opacity: 0.5; position: absolute; top: 0px; left: 0; right: 0; border: 0; width: 100%;  height: 100%;display:none;}
+
+
+
+   
+    
+    
+
+  
+
+   
+  

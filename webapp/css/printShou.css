@@ -1,0 +1,53 @@
+ @charset "utf-8";
+/* 父div */
+.stampCss { width: 910.98px; height: 1056.132px;  margin:0 auto;}
+
+/* 头部 */
+.orderTop { float: left; width: 910px; height: 100px;}
+.orderMiddle { float: left; width: 910px; height: 30px;}
+
+/* 内容  */
+.orderContent { float: left; width: 910px;}
+
+/* 底部 */
+.orderBotton { float: left; width: 910px; height: 30px;}
+
+/* 图片  */
+.orderpic { position: absolute;}
+
+/* 发货明细单标题 */
+.fhtitle { position: absolute; padding: 0px 395.49px 50px 395.49px;}
+
+/* 条形码  */
+.ordercode { position: absolute; width: 150px; margin:0 auto; padding: 10px 50px 50px 750px;}
+.barNumber { margin-left: 43px;}
+
+/* 制单时间 */
+.createOddTime {float: left;width: 250px; height: 30px;}
+/* 门店code  */
+.mdcode {float: left; width: 150px; height: 30px;}
+/* 财务code  */	
+.cwcode {float: left; margin-left: 10px; width: 150px; height: 30px;}
+/* 门店名称  */
+.mdmc {float: left; margin-left: 10px; width: 300px; height: 30px;}
+
+/* 表格  */
+table,table tr th, table tr td { border:1px solid black; text-align: center; border-collapse:collapse;}
+
+table{ width: 100%; table-layout: fixed;}
+td { word-wrap:break-word; word-break:break-all;}
+span { width: 110px;}
+
+/* 款号  */
+.styleNumber { width: 150px;}
+
+/* 制单人员  */
+.createOdd {float: left;width: 300px; height: 30px;}
+/* 客服  */
+.customerService {float: left; margin-left: 50px; width: 200px}
+/* 财务签字  */
+.cwqz {float: left; margin-left: 30px; width: 200px}
+
+/* 汇总  */
+.total { text-align: right;}
+.totalNumber, .totalMoney{font-weight: bold;}

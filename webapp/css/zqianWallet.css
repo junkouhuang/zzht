@@ -1,0 +1,8 @@
+/* .clearfix:after{content:"\20";display:block;height:0;clear:both;visibility:hidden}.clearfix{zoom:1}
+.tabBar {border-bottom: 2px solid #222}
+.tabBar span {background-color: #e8e8e8;cursor: pointer;display: inline-block;float: left;font-weight: bold;height: 30px;line-height: 30px;padding: 0 15px}
+.tabBar .current{background-color: #222;color: #fff}
+.tabCon {display: none}
+ */
+ .zqianWallet .msgInfo {     text-align: center; position: absolute; left: 50%; margin-left: -45px;}
+

@@ -1,0 +1,31 @@
+@charset "utf-8"";
+html, body, div, h1, span, header, img, button, ul,ol,li {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+	margin:0;
+	padding:0;
+}
+input[type="submit"] {
+	color: #fff;
+    font-size: 15px;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+ul li {
+	list-style: none;
+}
+/*主体*/
+.piece1 {
+	max-width:1920px;
+	min-width:1200px;
+}
+.piece1 .piece1_hd {
+	width:1200px;
+	height:500px;
+	margin:50px auto;
+	text-align:center;
+}

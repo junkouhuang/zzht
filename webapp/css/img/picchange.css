@@ -1,0 +1,56 @@
+﻿.picMain
+{
+    margin: auto;
+    overflow: hidden;
+    width: 666px;
+    height: 411px;
+    position: relative;
+}
+.picimg
+{
+    width: 10000px;
+    height: 411px;
+    background-color: #000000;
+    position: absolute;
+    top: 0px;
+}
+.picaction
+{
+    position: absolute;
+    width: 666px;
+    height: 50px;
+    background-color: #000000;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    overflow: auto;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+}
+.picaction a
+{
+    border: 1px solid #C0C0C0;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+.pic
+{
+    width: 666px;
+    height: 411px;
+    float: left;
+}
+.picselect
+{
+    background-color: #919191;
+}
+

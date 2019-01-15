@@ -1,0 +1,155 @@
+@charset "utf-8"";
+html, body, div, h1, span, header, img, button, ul,ol,li {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+	margin:0;
+	padding:0;
+}
+input[type="submit"] {
+	color: #fff;
+    font-size: 15px;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+ul li {
+	list-style: none;
+}
+/*头部*/
+.header {
+	max-width: 1920px;
+	min-width: 1200px;
+	height: 40px; 
+	background-color: #B6C532;
+}
+.header .wrap {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header .wrap .s1 {
+    color:#ffffff;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 40px;
+}
+.header .wrap .home {
+	float: left;
+}
+.header .wrap .myorder,.shopping-cart,.login,.register {
+	float: right;
+    margin:0 20px;
+}
+/*主体*/
+body{
+	background-color:#F6F6F6!important;
+}
+.section {
+	max-width:1920px;
+	min-width:1200px;
+}
+.section .content-layout {
+	width:1200px;
+	margin:70px auto;
+}
+.section .content-layout .maincenter {
+	width:900px;
+	height:500px;
+	background-color:#fff;
+	margin: 0 auto;
+}
+.section .content-layout .maincenter  .findpwd{
+	display:inline-block;
+	margin: 0;
+    color: #b6c532;
+    position: relative;
+    zoom: 1;
+    font-size: 14px;
+    top:20px;
+    left:20px;
+}
+.section .content-layout .maincenter  .step_box {
+      margin: 60px auto;
+      width: 650px;
+      height: 62px;
+      border-bottom: 1px solid #ccc;
+}
+.section .content-layout .maincenter  .step_box  .active {
+      border-bottom: 2px solid #b6c532;
+      font-size: 20px;
+      font-weight: bold;
+}
+.section .content-layout .maincenter  .step_box  li {
+	float: left;
+    display: inline-block;
+    background: #fff;
+    margin: 10px;
+    width: 196px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+.section .content-layout .maincenter  .step_box .show {
+	    border-bottom: 2px solid #b6c532;
+}
+.section .content-layout .maincenter  .ui-item {
+	width: 650px;
+    margin: 0 auto;
+    text-align:center;
+}
+.section .content-layout .maincenter  .ui-item .lg {
+	color:#87BD34;
+}
+.section .content-layout .maincenter  .ui-item li {
+    display:none;
+}
+.section .content-layout .maincenter  .ui-item .open {
+    display:inline-block;
+	}
+.section .content-layout .maincenter  .ui-item input {
+	width:250px;
+	height:36px;
+    text-indent: 4px;
+    margin:10px 0; 
+}
+.section .content-layout .maincenter  .ui-item  .tips {
+	    display: none;
+}
+.section .content-layout .maincenter  .subbox {
+    width: 650px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section .content-layout .maincenter  .subbox  #next {
+    background-color: #b6c532;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 33px;
+}
+.section .content-layout .maincenter  .subbox .toLogin {
+	background-color: #b6c532;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 33px;
+	display:none;
+}
+.section .content-layout .maincenter  .subbox  button{
+    width: 122px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background: #b6c532;
+}
+.section .content-layout .maincenter  .ui-item .retget {
+	margin-left: 10px;
+}     
